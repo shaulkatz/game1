@@ -1,0 +1,71 @@
+
+.App{
+	padding: 30px;
+}
+
+.gameShowing{
+	width: 500px;
+	height: 500px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+.game-index-grid{
+	/*display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 5px;
+	align-items: center;
+	justify-self: center ;*/
+	position: relative;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.game-index-tile{
+	width: 100px;
+	height:  100px;
+	border-radius: 50%;
+	border: 0px;
+	margin: 25px;
+	box-shadow: 3px 3px 3px 3px rgba(0,0,0, 0.2);
+}
+
+
+.home-icon{
+	width: 50px;
+	height:  50px;
+	margin: 5px;
+	border-radius: 50%;
+	border: 0px;
+	box-shadow: 3px 3px 3px 3px rgba(0,0,0, 0.2);
+}
+
+.game-index-tile:hover, .home-icon:hover{
+	cursor: pointer;
+	transform: scale(1.2);
+}
+.navbar-title{
+	font-family: verdana;
+    font-size: 3em;
+    font-weight: 700;
+    color: #f5f5f5;
+    text-shadow: 1px 1px 1px #919191,
+        1px 2px 1px #919191,
+        1px 3px 1px #919191,
+       /* 1px 4px 1px #919191,
+        1px 5px 1px #919191,*/
+        /*1px 6px 1px #919191,
+        1px 7px 1px #919191,
+        1px 8px 1px #919191,
+        1px 9px 1px #919191,
+        1px 10px 1px #919191,*/
+    1px 8px 6px rgba(16,16,16,0.4),
+    1px 10px 10px rgba(16,16,16,0.2),
+    1px 11px 35px rgba(16,16,16,0.2),
+    1px 14px 60px rgba(16,16,16,0.4);
+    margin-bottom: 30px;
+    position: relative;
+   width: 100%;
+   text-align: center;
+}

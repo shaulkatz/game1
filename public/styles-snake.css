@@ -1,0 +1,100 @@
+body{
+	padding: 30px;
+	margin: 0;
+	font-family: 'Fredoka One', cursive;
+	background-color: #174a91;
+
+}
+.top-bar-snake{
+
+	display: flex;
+  	width:  400px;
+	margin: auto;
+	align-items: center;
+
+}
+
+.score-snake{
+	
+	color: white;
+	margin-left: auto;
+
+	
+}
+.game-area-snake{
+	width: 400px;
+	height: 400px;
+	/*border: 6px solid #053475;*/
+	/*filter: drop-shadow(0px 0px 10px #000000);*/
+	 box-shadow:   0px 0px 10px 3px #ffffff;
+	margin: auto;
+	position: relative;
+	background-color:rgba(255,255,255,0.8);
+
+	border-radius: 5px;
+}
+.game-area-dark-snake {
+	width: 400px;
+	height: 400px;
+	/*border: 6px solid #053475;*/
+	filter: drop-shadow(0px 0px 10px #000000);
+	margin: auto;
+	position: relative;
+	border-radius: 5px;
+	background-color: #092752;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.dot-snake{
+	width: 12px;
+	height: 12px;
+	background-color: #092752;
+	border-radius:50% ;
+}
+
+.food-snake {
+	width: 12px;
+	height: 12px;
+	background-color: red;
+	outline: 1px solid white;
+}
+
+.button-snake{
+	width: 50px;
+	filter: drop-shadow(0px 0px 3px #000000);
+	margin-right: auto;
+}
+.game-over-snake{
+	position: relative;
+	width: fit-content;
+	color:  white;
+	/*margin:  auto;*/
+	/*line-height: 400px;*/
+	text-align: center;
+
+	}
+	.dark-restart-snake{
+		width: 100px;
+	filter: drop-shadow(0px 0px 3px #000000);
+
+
+	}
+
+	.your-score-snake{
+		color: white;
+	}
+	.level-snake {
+		color:  white;
+	}
+ .level-snake:hover{
+ 	cursor: pointer;
+ }
+ .button-snake:hover{
+ 	cursor: pointer;
+ }
+ .dark-restart-snake:hover{
+ 	cursor: pointer;
+ }
