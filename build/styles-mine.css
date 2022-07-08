@@ -1,0 +1,142 @@
+
+body{
+	font-family: 'Merriweather', serif;
+	background-color: steelblue;
+}
+
+.grid-mine{
+	position: relative;
+	width: fit-content;
+	margin: auto;
+	margin-top: 50px;
+}
+.gridPickLevel-mine{
+	position: relative;
+	width: fit-content;
+	margin: auto;
+	margin-top: 100px;
+}
+
+.box-mine{
+	width: 20px;
+	height:20px;
+	border: 1px solid black;
+	margin: 0.5px;
+	background-color: rgb(135, 135, 135);
+	text-align: center;
+	
+}
+.flag-mine{
+	width: 20px;
+	height:20px;
+	border: 1px solid black;
+	margin: 0.5px;
+	background-color: rgb(189, 187, 187);
+	text-align: center;
+	}
+
+.row-mine{
+	width: fit-content;
+	display: flex;
+	margin: auto;
+	position: relative;
+}
+.clicked-mine{
+	width: 20px;
+	height: 20px;
+	border: 1px solid black;
+	margin: 0.5px;
+	background-color: rgb(189, 187, 187);
+	text-align: center;
+	position: relative;
+}
+.bomb-mine{
+	width: 100%;
+}
+.gameOver-mine{
+	width: 20px;
+	height:20px;
+	border: 1px solid black;
+	margin: 0.5px;
+	background-color: rgba(189, 187, 187, 0.5);
+	text-align: center;
+	color: rgba(0, 0, 0, 0.5);
+
+}
+.gameOverlable-mine{
+	width: 100%;
+	/*position:  absolute;*/
+	text-align: center;
+	top: 70px;
+
+
+
+}
+.restartIcon-mine{
+	width: 20%;
+	margin-right: auto;
+	
+	
+}
+.restartIconConstant-mine{
+	width: 40px;
+	height: 40px;
+	margin-right: auto;
+	
+	
+}
+.gameOverBase-mine{
+	width: 250px;
+	background-color: rgba(255,255,255,0.7);
+	/*height: 200px;*/
+	position: absolute;
+	z-index: 1;
+	border-radius: 8px;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	text-align: center;
+	margin-top: 90px;
+	padding-bottom: 30px;
+
+
+}
+.mineCounter-mine{
+	background-color: white;
+	width: fit-content;
+	padding: 10px 10%;
+	border-radius: 8px;
+	font-size: 1rem;
+	margin: auto;
+	align-self: flex-end;
+	margin-bottom: 10px;
+
+
+}
+.level-mine{
+	padding: 20px;
+	background-color: white;
+	font-size:1.5rem;
+	margin: 10px;
+	border-radius: 10px;
+	display: flex;
+	align-items: center;
+	justify-content:center;
+
+}
+.level-mine:hover{
+	cursor:pointer;
+	background-color: #2D5373;
+	color: white;
+}
+.head-mine{
+	display: flex;
+	flex-direction: row;
+
+	
+}
+.placeHolder-mine{
+	height: 50px;
+}

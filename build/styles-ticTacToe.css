@@ -1,0 +1,174 @@
+
+body {
+    min-width: 400px;
+    padding-left: 20px;
+    font-family: 'Quicksand', sans-serif;
+    background-color: #0d82ba;
+    
+ }
+ .game-area-tic {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+   align-items: center;
+   background-color: white;
+   border-radius:30px ;
+   margin: auto;
+   padding: 20px;
+ }
+
+ .game-area-disabled-tic {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+   align-items: center;
+   background-color: #02557d;
+   border-radius:30px ;
+   margin: auto;
+   padding: 20px;
+ }
+ .container-title-tic {
+    height: 70px;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+ }
+ .text-title-tic {
+    align-self: center;
+    color:  white;
+ }
+ .BoxGrid-tic {
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
+     grid-gap: 5px;
+     width: 100%
+     max-width: 500px;
+
+ }
+
+ .Box-tic, .box-disabled-tic{
+     background-color: #1899D6;
+     width: 80px;
+     height: 80px;
+     border-radius:10px;
+     font-size: 4em;
+     text-align: center;
+     line-height: 125%;  
+     transition-duration: 300ms;
+     color: #ffffff;
+     position: relative;
+     flex-grow: 2;
+
+      border: solid transparent;
+      border-radius: 16px;
+      border-width: 0 0 6px;
+      cursor: pointer;
+       transform: translateZ(0);
+
+      
+
+ }
+.Box-tic:after, .box-disabled-tic:after {
+  background-clip: padding-box;
+  background-color: #1CB0F6;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  bottom: -4px;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+ .Box-tic:hover{
+    filter: brightness(1.1);
+    animation-name: shake;
+    animation-duration: 300ms;
+    animation-iteration-count:infinite;
+
+ }
+
+ .box-disabled-tic {
+    filter: brightness(0.3);
+    color: rgba(255, 255, 255, 0.5);
+ }
+
+
+ .restart-tic{
+     position: relative;
+     width: 50%;
+     height: 40px;
+      background-color: #1899D6;
+      border: solid transparent;
+      border-radius: 16px;
+      border-width: 0 0 4px;
+      color: #FFFFFF;
+      cursor: pointer;
+      font-family: din-round,sans-serif;
+     /* font-size: 15px;*/
+      font-weight: 700;
+      letter-spacing: .8px;
+      padding: 13px 16px;
+      text-transform: uppercase;
+      transform: translateZ(0);
+      transition: filter .2s;
+       margin: auto;
+       margin-top: 20px;
+       z-index: 3;
+    }
+
+.restart-tic:after {
+  background-clip: padding-box;
+  background-color: #1CB0F6;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  bottom: -4px;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.restart-tic:hover:not(:disabled) {
+  filter: brightness(1.1);
+}
+
+  
+ .winner-tic, .tie-game-tic{
+    color: #ffffff;
+     position: absolute;
+     line-height: 230px;
+     width:  50%;
+     text-align: center;
+     z-index: 2;
+     align-self: center;
+
+ }
+
+
+ @keyframes shake {
+    0%{
+        transform: rotate(0deg);
+    }
+
+    25%{
+        transform: rotate(1deg);
+    }
+    50%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(-1deg);
+    }
+ }
+
+ <!-- HTML !-->
+<button class="button-19" role="button">Button 19</button>
+
+
