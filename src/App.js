@@ -11,6 +11,7 @@ export default function App() {
   }
   return (
     <div className="App">
+      aaaaaaaaaaaaaaaaaaaa
         <div className="choose-game">
             { whatGame === "home" ? 
             <NavBar handelClick = {chooseGame}/> 
