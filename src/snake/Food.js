@@ -6,7 +6,7 @@ export default function Food (props){
       left: `${props.left}%`,
       top: `${props.top}%`
       
-    };
+    };  
 	return(
 		<div className="food-snake" style={mystyle}></div>)
 }
