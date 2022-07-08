@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.js": "/static/js/main.e94efcc0.js",
-    "static/media/Snake-icon.png": "/static/media/Snake-icon.0e1430edb328f52fd1e3.png",
-    "static/media/Bomb-icon.png": "/static/media/Bomb-icon.268747b5217104f0f5ce.png",
-    "static/media/flag.png": "/static/media/flag.84a376ebfd52b6df2a10.png",
-    "static/media/bomb.png": "/static/media/bomb.df6e045bee0d1990a53b.png",
-    "static/media/Chess-icon.png": "/static/media/Chess-icon.71e726f7044f1a806341.png",
-    "static/media/xo-icon.png": "/static/media/xo-icon.05209b88c6c814ab06a0.png",
-    "static/media/restartIconWhite.png": "/static/media/restartIconWhite.941f0408f91cb584f272.png",
-    "static/media/Brick-icon.png": "/static/media/Brick-icon.964551b540a5bcfcb1bf.png",
-    "index.html": "/index.html",
-    "main.e94efcc0.js.map": "/static/js/main.e94efcc0.js.map"
+    "main.js": "/game1/static/js/main.3765fe25.js",
+    "static/media/Snake-icon.png": "/game1/static/media/Snake-icon.0e1430edb328f52fd1e3.png",
+    "static/media/Bomb-icon.png": "/game1/static/media/Bomb-icon.268747b5217104f0f5ce.png",
+    "static/media/flag.png": "/game1/static/media/flag.84a376ebfd52b6df2a10.png",
+    "static/media/bomb.png": "/game1/static/media/bomb.df6e045bee0d1990a53b.png",
+    "static/media/Chess-icon.png": "/game1/static/media/Chess-icon.71e726f7044f1a806341.png",
+    "static/media/xo-icon.png": "/game1/static/media/xo-icon.05209b88c6c814ab06a0.png",
+    "static/media/restartIconWhite.png": "/game1/static/media/restartIconWhite.941f0408f91cb584f272.png",
+    "static/media/Brick-icon.png": "/game1/static/media/Brick-icon.964551b540a5bcfcb1bf.png",
+    "index.html": "/game1/index.html",
+    "main.3765fe25.js.map": "/game1/static/js/main.3765fe25.js.map"
   },
   "entrypoints": [
-    "static/js/main.e94efcc0.js"
+    "static/js/main.3765fe25.js"
   ]
 }
