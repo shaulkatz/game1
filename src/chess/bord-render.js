@@ -6,7 +6,7 @@ export default function BordRender (){
 	const rows = ["8","7","6","5","4","3","2","1"]
 	const clms = ["a","b","c","d","e","f","g","h"]
 
-	let bord = []
+	let bord = []    
 
 	for(let i=0; i<rows.length; i++){
 		for (let j=0; j<clms.length; j++){
